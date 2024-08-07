@@ -1,0 +1,125 @@
+body{
+
+    height:1000px;
+    width:100%;
+    background-color:#363636;
+    color:white;
+
+}
+
+hr{
+
+    width:200px;
+    float:left;
+    margin:20px 0;
+
+}
+
+h1{
+
+    font: bold 30px arial;
+    margin-top: 50px; 
+    margin-bottom:0;  
+
+}
+
+nav{
+
+    height:500px;
+    width:100px;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    border-radius:2px;
+    font:normal 16px arial;
+
+}
+
+nav a:hover{
+
+    transition:0.2s;
+    background-color:white;
+    color:black
+
+}
+
+p{
+
+    font:normal 16px arial;
+
+}
+
+strong{
+
+    border-radius:2px;
+
+}
+
+strong:hover{
+
+    background-color:white;
+    color:black;
+    transition:0.2s;
+
+}
+
+button{
+
+    margin-top:20px;
+
+}
+
+/* CLASSES */
+
+.return-home{
+
+    font:normal 12px arial;
+    color:white;
+    text-decoration:none;
+    border-radius:2px;
+    display:inline;
+
+}
+
+.return-home:hover{
+
+    background-color:white;
+    color:black;
+    transition:0.2s;
+
+}
+
+/* IDs*/
+
+#resposta{
+
+    margin-top:10px;
+    width:400px;
+    height:100px;
+
+}
+
+#container{
+
+    width:200px;
+    height:500px;
+    margin-bottom:20px;
+
+}
+
+#container-exc5{
+
+    float:left;
+    margin-right:-200px;
+
+}
+
+#num5, #num7{
+
+    display:block;
+
+}
